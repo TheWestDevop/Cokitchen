@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        resizeToAvoidBottomPadding: false,
+        // resizeToAvoidBottomPadding: true,
         key: _scaffoldKey,
         floatingActionButton: trackButton(MediaQuery.of(context).size),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

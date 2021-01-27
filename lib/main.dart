@@ -1,5 +1,4 @@
 import 'package:CoKitchen/screens/screens.dart';
-import 'package:CoKitchen/util/utils.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      color:AppStyles.backgroundColor,
       theme: ThemeData(
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        backgroundColor: Colors.white
       ),
       home: Home(),
     );
